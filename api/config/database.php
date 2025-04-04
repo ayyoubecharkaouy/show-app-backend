@@ -1,10 +1,10 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 
-$host = 'saturn.capconnect.com';
-$dbname = 'beluxest_app';
-$username = 'beluxest_ayyoub_echarkaouy';
-$password = 'Kal7h0:02nw0ke';
+$host = '*********************';
+$dbname = '***************';
+$username = '************';
+$password = '***************';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
